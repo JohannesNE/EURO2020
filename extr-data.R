@@ -113,4 +113,6 @@ final <- purrr::reduce(
     all.x = TRUE, all.y = FALSE
 )
 final <- delta[final, on = .(country, date), roll = Inf]
+final <- final[matches, on = .(country, date), match := 1]
+final[is.na(match), match := 0]
 fwrite(final, "input/analysis.csv")
