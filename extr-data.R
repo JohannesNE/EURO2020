@@ -50,6 +50,11 @@ delta <- delta[variant == "Delta" &
                location %in% eligible &
                between(date, as.Date("2021-04-11"), as.Date("2021-08-11"))]
 delta <- delta[, .(country = location, date, num_sequences, perc_sequences)]
+delta <- delta[country != "denmark"]
+
+deltadk <- fread("raw/prop-delta.csv")
+deltadk <- deltadk[, .(country = "denmark", date = `Collection date`, num_sequences = delta, perc_sequences = prop_delta)]
+delta <- rbind(delta, deltadk)
 
 # Data for Wales/England were manually obtained from:
 # https://www.gov.uk/government/publications/covid-19-variants-genomically-confirmed-case-numbers
