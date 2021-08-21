@@ -15,7 +15,13 @@ avail_countries <- names(cases)[names(cases) %in% eligible]
 cases <- cases[between(date, as.Date("2021-05-11"), as.Date("2021-08-11")),
                c("date", avail_countries), with = FALSE]
 cases <- melt(cases, "date", variable.name = "country", value.name = "newcases")
-cases <- cases[newcases == 0, newcases := NA]
+cases <- cases[newcases < 1, newcases := NA]
+
+# TESTING
+tests <- fread("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/testing/covid-testing-all-observations.csv")
+tests <- tests[, c(1, 3, 7)]
+tests[, country := tolower(gsub(" - tests performed", "", Entity))]
+tests <- tests[, .(country, date = Date, ntests = `Daily change in cumulative total`)]
 
 # Obtain UK data stratified by nation (Wales/England)
 uk <- fread("https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=newCasesByPublishDate&format=csv")
@@ -105,10 +111,11 @@ matches[!grepl("Group", stage) & result == 1,
 matches <- matches[, .(date, country, stage, home, goals, opp_goals, result)] # Drop unneeded variables
 matches[, penalties := grepl("Group", stage) & goals == opp_goals] # Indicator variable if the match was decided by penalties
 matches[grepl("Group", stage), stage := substr(stage, 1, 5)]
+matches[country == "czech republic", country := "czechia"]
 rm(hometeam, awayteam)
 
 final <- purrr::reduce(
-    list(cases, vacc, restr),
+    list(cases, tests, vacc, restr),
     merge, by = c("country", "date"),
     all.x = TRUE, all.y = FALSE
 )
