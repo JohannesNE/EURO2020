@@ -40,7 +40,7 @@ date,country,newcases
 2021-06-18,albania,3
 2021-06-19,albania,4
 2021-06-20,albania,2
-2021-06-21,albania,0
+2021-06-21,albania,
 2021-06-22,albania,6
 2021-06-23,albania,1
 2021-06-24,albania,2
@@ -94,95 +94,95 @@ date,country,newcases
 2021-08-11,albania,286
 2021-05-11,andorra,18
 2021-05-12,andorra,23
-2021-05-13,andorra,0
+2021-05-13,andorra,
 2021-05-14,andorra,40
-2021-05-15,andorra,0
-2021-05-16,andorra,0
+2021-05-15,andorra,
+2021-05-16,andorra,
 2021-05-17,andorra,45
 2021-05-18,andorra,14
-2021-05-19,andorra,0
-2021-05-20,andorra,0
-2021-05-21,andorra,0
-2021-05-22,andorra,0
-2021-05-23,andorra,0
-2021-05-24,andorra,0
+2021-05-19,andorra,
+2021-05-20,andorra,
+2021-05-21,andorra,
+2021-05-22,andorra,
+2021-05-23,andorra,
+2021-05-24,andorra,
 2021-05-25,andorra,95
 2021-05-26,andorra,7
 2021-05-27,andorra,11
 2021-05-28,andorra,11
-2021-05-29,andorra,0
-2021-05-30,andorra,0
+2021-05-29,andorra,
+2021-05-30,andorra,
 2021-05-31,andorra,34
 2021-06-01,andorra,2
 2021-06-02,andorra,15
 2021-06-03,andorra,8
 2021-06-04,andorra,6
-2021-06-05,andorra,0
-2021-06-06,andorra,0
+2021-06-05,andorra,
+2021-06-06,andorra,
 2021-06-07,andorra,19
 2021-06-08,andorra,4
 2021-06-09,andorra,10
 2021-06-10,andorra,14
 2021-06-11,andorra,8
-2021-06-12,andorra,0
-2021-06-13,andorra,0
+2021-06-12,andorra,
+2021-06-13,andorra,
 2021-06-14,andorra,13
 2021-06-15,andorra,2
 2021-06-16,andorra,8
 2021-06-17,andorra,3
 2021-06-18,andorra,3
-2021-06-19,andorra,0
-2021-06-20,andorra,0
+2021-06-19,andorra,
+2021-06-20,andorra,
 2021-06-21,andorra,22
-2021-06-22,andorra,0
+2021-06-22,andorra,
 2021-06-23,andorra,9
 2021-06-24,andorra,4
 2021-06-25,andorra,5
-2021-06-26,andorra,0
-2021-06-27,andorra,0
-2021-06-28,andorra,0
+2021-06-26,andorra,
+2021-06-27,andorra,
+2021-06-28,andorra,
 2021-06-29,andorra,18
 2021-06-30,andorra,11
 2021-07-01,andorra,7
-2021-07-02,andorra,0
-2021-07-03,andorra,0
-2021-07-04,andorra,0
-2021-07-05,andorra,0
+2021-07-02,andorra,
+2021-07-03,andorra,
+2021-07-04,andorra,
+2021-07-05,andorra,
 2021-07-06,andorra,73
 2021-07-07,andorra,30
 2021-07-08,andorra,29
 2021-07-09,andorra,25
-2021-07-10,andorra,0
-2021-07-11,andorra,0
+2021-07-10,andorra,
+2021-07-11,andorra,
 2021-07-12,andorra,80
 2021-07-13,andorra,12
-2021-07-14,andorra,0
+2021-07-14,andorra,
 2021-07-15,andorra,72
 2021-07-16,andorra,34
-2021-07-17,andorra,0
-2021-07-18,andorra,0
+2021-07-17,andorra,
+2021-07-18,andorra,
 2021-07-19,andorra,86
 2021-07-20,andorra,20
-2021-07-21,andorra,0
+2021-07-21,andorra,
 2021-07-22,andorra,85
 2021-07-23,andorra,34
-2021-07-24,andorra,0
-2021-07-25,andorra,0
+2021-07-24,andorra,
+2021-07-25,andorra,
 2021-07-26,andorra,79
 2021-07-27,andorra,9
-2021-07-28,andorra,0
+2021-07-28,andorra,
 2021-07-29,andorra,69
 2021-07-30,andorra,23
-2021-07-31,andorra,0
-2021-08-01,andorra,0
+2021-07-31,andorra,
+2021-08-01,andorra,
 2021-08-02,andorra,69
 2021-08-03,andorra,19
 2021-08-04,andorra,31
 2021-08-05,andorra,12
 2021-08-06,andorra,27
-2021-08-07,andorra,0
-2021-08-08,andorra,0
-2021-08-09,andorra,0
+2021-08-07,andorra,
+2021-08-08,andorra,
+2021-08-09,andorra,
 2021-08-10,andorra,37
 2021-08-11,andorra,18
 2021-05-11,armenia,243
@@ -595,7 +595,7 @@ date,country,newcases
 2021-06-15,belgium,508
 2021-06-16,belgium,671
 2021-06-17,belgium,493
-2021-06-18,belgium,0
+2021-06-18,belgium,
 2021-06-19,belgium,833
 2021-06-20,belgium,331
 2021-06-21,belgium,225
@@ -603,50 +603,50 @@ date,country,newcases
 2021-06-23,belgium,1026
 2021-06-24,belgium,847
 2021-06-25,belgium,568
-2021-06-26,belgium,0
-2021-06-27,belgium,0
+2021-06-26,belgium,
+2021-06-27,belgium,
 2021-06-28,belgium,1002
 2021-06-29,belgium,1072
 2021-06-30,belgium,581
 2021-07-01,belgium,754
 2021-07-02,belgium,623
-2021-07-03,belgium,0
-2021-07-04,belgium,0
+2021-07-03,belgium,
+2021-07-04,belgium,
 2021-07-05,belgium,1855
 2021-07-06,belgium,742
 2021-07-07,belgium,1990
 2021-07-08,belgium,1382
 2021-07-09,belgium,1223
-2021-07-10,belgium,0
-2021-07-11,belgium,0
+2021-07-10,belgium,
+2021-07-11,belgium,
 2021-07-12,belgium,3329
 2021-07-13,belgium,1303
 2021-07-14,belgium,2284
 2021-07-15,belgium,1453
 2021-07-16,belgium,1344
-2021-07-17,belgium,0
-2021-07-18,belgium,0
+2021-07-17,belgium,
+2021-07-18,belgium,
 2021-07-19,belgium,3795
 2021-07-20,belgium,1467
-2021-07-21,belgium,0
+2021-07-21,belgium,
 2021-07-22,belgium,3486
-2021-07-23,belgium,0
+2021-07-23,belgium,
 2021-07-24,belgium,1304
-2021-07-25,belgium,0
+2021-07-25,belgium,
 2021-07-26,belgium,4232
 2021-07-27,belgium,1333
 2021-07-28,belgium,2059
 2021-07-29,belgium,1862
 2021-07-30,belgium,1764
-2021-07-31,belgium,0
-2021-08-01,belgium,0
+2021-07-31,belgium,
+2021-08-01,belgium,
 2021-08-02,belgium,4303
 2021-08-03,belgium,1740
 2021-08-04,belgium,2176
 2021-08-05,belgium,1973
 2021-08-06,belgium,1819
-2021-08-07,belgium,0
-2021-08-08,belgium,0
+2021-08-07,belgium,
+2021-08-08,belgium,
 2021-08-09,belgium,4653
 2021-08-10,belgium,1748
 2021-08-11,belgium,2609
@@ -654,92 +654,92 @@ date,country,newcases
 2021-05-12,bosnia and herzegovina,284
 2021-05-13,bosnia and herzegovina,207
 2021-05-14,bosnia and herzegovina,140
-2021-05-15,bosnia and herzegovina,0
-2021-05-16,bosnia and herzegovina,0
+2021-05-15,bosnia and herzegovina,
+2021-05-16,bosnia and herzegovina,
 2021-05-17,bosnia and herzegovina,347
 2021-05-18,bosnia and herzegovina,185
 2021-05-19,bosnia and herzegovina,172
 2021-05-20,bosnia and herzegovina,171
 2021-05-21,bosnia and herzegovina,132
-2021-05-22,bosnia and herzegovina,0
-2021-05-23,bosnia and herzegovina,0
+2021-05-22,bosnia and herzegovina,
+2021-05-23,bosnia and herzegovina,
 2021-05-24,bosnia and herzegovina,241
 2021-05-25,bosnia and herzegovina,122
 2021-05-26,bosnia and herzegovina,145
 2021-05-27,bosnia and herzegovina,104
 2021-05-28,bosnia and herzegovina,77
-2021-05-29,bosnia and herzegovina,0
-2021-05-30,bosnia and herzegovina,0
+2021-05-29,bosnia and herzegovina,
+2021-05-30,bosnia and herzegovina,
 2021-05-31,bosnia and herzegovina,173
 2021-06-01,bosnia and herzegovina,81
 2021-06-02,bosnia and herzegovina,79
 2021-06-03,bosnia and herzegovina,80
 2021-06-04,bosnia and herzegovina,52
-2021-06-05,bosnia and herzegovina,0
-2021-06-06,bosnia and herzegovina,0
+2021-06-05,bosnia and herzegovina,
+2021-06-06,bosnia and herzegovina,
 2021-06-07,bosnia and herzegovina,106
 2021-06-08,bosnia and herzegovina,45
 2021-06-09,bosnia and herzegovina,57
 2021-06-10,bosnia and herzegovina,55
 2021-06-11,bosnia and herzegovina,30
-2021-06-12,bosnia and herzegovina,0
-2021-06-13,bosnia and herzegovina,0
+2021-06-12,bosnia and herzegovina,
+2021-06-13,bosnia and herzegovina,
 2021-06-14,bosnia and herzegovina,71
 2021-06-15,bosnia and herzegovina,29
 2021-06-16,bosnia and herzegovina,33
 2021-06-17,bosnia and herzegovina,61
 2021-06-18,bosnia and herzegovina,23
-2021-06-19,bosnia and herzegovina,0
-2021-06-20,bosnia and herzegovina,0
+2021-06-19,bosnia and herzegovina,
+2021-06-20,bosnia and herzegovina,
 2021-06-21,bosnia and herzegovina,46
 2021-06-22,bosnia and herzegovina,26
 2021-06-23,bosnia and herzegovina,24
 2021-06-24,bosnia and herzegovina,26
 2021-06-25,bosnia and herzegovina,9
-2021-06-26,bosnia and herzegovina,0
-2021-06-27,bosnia and herzegovina,0
+2021-06-26,bosnia and herzegovina,
+2021-06-27,bosnia and herzegovina,
 2021-06-28,bosnia and herzegovina,46
 2021-06-29,bosnia and herzegovina,13
 2021-06-30,bosnia and herzegovina,18
 2021-07-01,bosnia and herzegovina,10
 2021-07-02,bosnia and herzegovina,15
-2021-07-03,bosnia and herzegovina,0
-2021-07-04,bosnia and herzegovina,0
-2021-07-05,bosnia and herzegovina,0
-2021-07-06,bosnia and herzegovina,0
-2021-07-07,bosnia and herzegovina,0
-2021-07-08,bosnia and herzegovina,0
-2021-07-09,bosnia and herzegovina,0
+2021-07-03,bosnia and herzegovina,
+2021-07-04,bosnia and herzegovina,
+2021-07-05,bosnia and herzegovina,
+2021-07-06,bosnia and herzegovina,
+2021-07-07,bosnia and herzegovina,
+2021-07-08,bosnia and herzegovina,
+2021-07-09,bosnia and herzegovina,
 2021-07-10,bosnia and herzegovina,98
-2021-07-11,bosnia and herzegovina,0
+2021-07-11,bosnia and herzegovina,
 2021-07-12,bosnia and herzegovina,36
 2021-07-13,bosnia and herzegovina,33
 2021-07-14,bosnia and herzegovina,24
 2021-07-15,bosnia and herzegovina,29
 2021-07-16,bosnia and herzegovina,18
-2021-07-17,bosnia and herzegovina,0
-2021-07-18,bosnia and herzegovina,0
+2021-07-17,bosnia and herzegovina,
+2021-07-18,bosnia and herzegovina,
 2021-07-19,bosnia and herzegovina,28
 2021-07-20,bosnia and herzegovina,27
 2021-07-21,bosnia and herzegovina,5
 2021-07-22,bosnia and herzegovina,39
 2021-07-23,bosnia and herzegovina,36
-2021-07-24,bosnia and herzegovina,0
-2021-07-25,bosnia and herzegovina,0
+2021-07-24,bosnia and herzegovina,
+2021-07-25,bosnia and herzegovina,
 2021-07-26,bosnia and herzegovina,75
 2021-07-27,bosnia and herzegovina,28
 2021-07-28,bosnia and herzegovina,43
 2021-07-29,bosnia and herzegovina,44
 2021-07-30,bosnia and herzegovina,45
-2021-07-31,bosnia and herzegovina,0
-2021-08-01,bosnia and herzegovina,0
+2021-07-31,bosnia and herzegovina,
+2021-08-01,bosnia and herzegovina,
 2021-08-02,bosnia and herzegovina,130
 2021-08-03,bosnia and herzegovina,40
 2021-08-04,bosnia and herzegovina,124
 2021-08-05,bosnia and herzegovina,82
 2021-08-06,bosnia and herzegovina,75
-2021-08-07,bosnia and herzegovina,0
-2021-08-08,bosnia and herzegovina,0
+2021-08-07,bosnia and herzegovina,
+2021-08-08,bosnia and herzegovina,
 2021-08-09,bosnia and herzegovina,211
 2021-08-10,bosnia and herzegovina,159
 2021-08-11,bosnia and herzegovina,179
@@ -797,7 +797,7 @@ date,country,newcases
 2021-07-01,bulgaria,73
 2021-07-02,bulgaria,81
 2021-07-03,bulgaria,51
-2021-07-04,bulgaria,0
+2021-07-04,bulgaria,
 2021-07-05,bulgaria,117
 2021-07-06,bulgaria,87
 2021-07-07,bulgaria,60
@@ -961,7 +961,7 @@ date,country,newcases
 2021-06-09,cyprus,77
 2021-06-10,cyprus,59
 2021-06-11,cyprus,60
-2021-06-12,cyprus,0
+2021-06-12,cyprus,
 2021-06-13,cyprus,75
 2021-06-14,cyprus,57
 2021-06-15,cyprus,64
@@ -1010,7 +1010,7 @@ date,country,newcases
 2021-07-28,cyprus,769
 2021-07-29,cyprus,655
 2021-07-30,cyprus,635
-2021-07-31,cyprus,0
+2021-07-31,cyprus,
 2021-08-01,cyprus,804
 2021-08-02,cyprus,493
 2021-08-03,cyprus,598
@@ -1319,7 +1319,7 @@ date,country,newcases
 2021-05-26,finland,220
 2021-05-27,finland,98
 2021-05-28,finland,182
-2021-05-29,finland,0
+2021-05-29,finland,
 2021-05-30,finland,188
 2021-05-31,finland,56
 2021-06-01,finland,154
@@ -1346,7 +1346,7 @@ date,country,newcases
 2021-06-22,finland,110
 2021-06-23,finland,107
 2021-06-24,finland,123
-2021-06-25,finland,0
+2021-06-25,finland,
 2021-06-26,finland,270
 2021-06-27,finland,95
 2021-06-28,finland,84
@@ -1541,7 +1541,7 @@ date,country,newcases
 2021-07-01,georgia,980
 2021-07-02,georgia,964
 2021-07-03,georgia,1026
-2021-07-04,georgia,0
+2021-07-04,georgia,
 2021-07-05,georgia,838
 2021-07-06,georgia,1407
 2021-07-07,georgia,1392
@@ -1798,137 +1798,137 @@ date,country,newcases
 2021-06-09,hungary,179
 2021-06-10,hungary,206
 2021-06-11,hungary,199
-2021-06-12,hungary,0
-2021-06-13,hungary,0
+2021-06-12,hungary,
+2021-06-13,hungary,
 2021-06-14,hungary,255
 2021-06-15,hungary,57
 2021-06-16,hungary,107
 2021-06-17,hungary,113
 2021-06-18,hungary,106
-2021-06-19,hungary,0
-2021-06-20,hungary,0
+2021-06-19,hungary,
+2021-06-20,hungary,
 2021-06-21,hungary,202
 2021-06-22,hungary,54
 2021-06-23,hungary,91
 2021-06-24,hungary,69
 2021-06-25,hungary,66
-2021-06-26,hungary,0
-2021-06-27,hungary,0
+2021-06-26,hungary,
+2021-06-27,hungary,
 2021-06-28,hungary,132
 2021-06-29,hungary,34
 2021-06-30,hungary,52
 2021-07-01,hungary,32
 2021-07-02,hungary,37
-2021-07-03,hungary,0
-2021-07-04,hungary,0
+2021-07-03,hungary,
+2021-07-04,hungary,
 2021-07-05,hungary,65
 2021-07-06,hungary,32
 2021-07-07,hungary,44
 2021-07-08,hungary,55
 2021-07-09,hungary,44
-2021-07-10,hungary,0
-2021-07-11,hungary,0
+2021-07-10,hungary,
+2021-07-11,hungary,
 2021-07-12,hungary,102
 2021-07-13,hungary,17
 2021-07-14,hungary,56
 2021-07-15,hungary,49
 2021-07-16,hungary,64
-2021-07-17,hungary,0
-2021-07-18,hungary,0
+2021-07-17,hungary,
+2021-07-18,hungary,
 2021-07-19,hungary,139
 2021-07-20,hungary,25
 2021-07-21,hungary,56
 2021-07-22,hungary,71
 2021-07-23,hungary,85
-2021-07-24,hungary,0
-2021-07-25,hungary,0
+2021-07-24,hungary,
+2021-07-25,hungary,
 2021-07-26,hungary,161
 2021-07-27,hungary,26
 2021-07-28,hungary,74
 2021-07-29,hungary,65
 2021-07-30,hungary,64
-2021-07-31,hungary,0
-2021-08-01,hungary,0
+2021-07-31,hungary,
+2021-08-01,hungary,
 2021-08-02,hungary,155
 2021-08-03,hungary,26
 2021-08-04,hungary,59
 2021-08-05,hungary,72
 2021-08-06,hungary,52
-2021-08-07,hungary,0
-2021-08-08,hungary,0
+2021-08-07,hungary,
+2021-08-08,hungary,
 2021-08-09,hungary,156
 2021-08-10,hungary,35
 2021-08-11,hungary,80
 2021-05-11,iceland,3
 2021-05-12,iceland,4
-2021-05-13,iceland,0
+2021-05-13,iceland,
 2021-05-14,iceland,11
-2021-05-15,iceland,0
-2021-05-16,iceland,0
+2021-05-15,iceland,
+2021-05-16,iceland,
 2021-05-17,iceland,11
 2021-05-18,iceland,1
 2021-05-19,iceland,2
 2021-05-20,iceland,4
-2021-05-21,iceland,0
-2021-05-22,iceland,0
+2021-05-21,iceland,
+2021-05-22,iceland,
 2021-05-23,iceland,1
-2021-05-24,iceland,0
-2021-05-25,iceland,0
+2021-05-24,iceland,
+2021-05-25,iceland,
 2021-05-26,iceland,4
 2021-05-27,iceland,4
-2021-05-28,iceland,0
+2021-05-28,iceland,
 2021-05-29,iceland,12
-2021-05-30,iceland,0
-2021-05-31,iceland,0
-2021-06-01,iceland,0
+2021-05-30,iceland,
+2021-05-31,iceland,
+2021-06-01,iceland,
 2021-06-02,iceland,10
 2021-06-03,iceland,4
 2021-06-04,iceland,5
 2021-06-05,iceland,2
 2021-06-06,iceland,7
-2021-06-07,iceland,0
-2021-06-08,iceland,0
+2021-06-07,iceland,
+2021-06-08,iceland,
 2021-06-09,iceland,8
-2021-06-10,iceland,0
+2021-06-10,iceland,
 2021-06-11,iceland,4
-2021-06-12,iceland,0
-2021-06-13,iceland,0
-2021-06-14,iceland,0
+2021-06-12,iceland,
+2021-06-13,iceland,
+2021-06-14,iceland,
 2021-06-15,iceland,5
-2021-06-16,iceland,0
+2021-06-16,iceland,
 2021-06-17,iceland,1
-2021-06-18,iceland,0
+2021-06-18,iceland,
 2021-06-19,iceland,5
-2021-06-20,iceland,0
-2021-06-21,iceland,0
+2021-06-20,iceland,
+2021-06-21,iceland,
 2021-06-22,iceland,3
-2021-06-23,iceland,0
-2021-06-24,iceland,0
-2021-06-25,iceland,0
+2021-06-23,iceland,
+2021-06-24,iceland,
+2021-06-25,iceland,
 2021-06-26,iceland,7
-2021-06-27,iceland,0
-2021-06-28,iceland,0
+2021-06-27,iceland,
+2021-06-28,iceland,
 2021-06-29,iceland,12
-2021-06-30,iceland,0
-2021-07-01,iceland,0
-2021-07-02,iceland,0
+2021-06-30,iceland,
+2021-07-01,iceland,
+2021-07-02,iceland,
 2021-07-03,iceland,5
-2021-07-04,iceland,0
-2021-07-05,iceland,0
-2021-07-06,iceland,0
+2021-07-04,iceland,
+2021-07-05,iceland,
+2021-07-06,iceland,
 2021-07-07,iceland,10
-2021-07-08,iceland,0
-2021-07-09,iceland,0
+2021-07-08,iceland,
+2021-07-09,iceland,
 2021-07-10,iceland,11
-2021-07-11,iceland,0
-2021-07-12,iceland,0
-2021-07-13,iceland,0
-2021-07-14,iceland,0
-2021-07-15,iceland,0
-2021-07-16,iceland,0
+2021-07-11,iceland,
+2021-07-12,iceland,
+2021-07-13,iceland,
+2021-07-14,iceland,
+2021-07-15,iceland,
+2021-07-16,iceland,
 2021-07-17,iceland,43
-2021-07-18,iceland,0
-2021-07-19,iceland,0
+2021-07-18,iceland,
+2021-07-19,iceland,
 2021-07-20,iceland,114
 2021-07-21,iceland,65
 2021-07-22,iceland,70
@@ -2073,8 +2073,8 @@ date,country,newcases
 2021-06-05,israel,27
 2021-06-06,israel,5
 2021-06-07,israel,14
-2021-06-08,israel,0
-2021-06-09,israel,0
+2021-06-08,israel,
+2021-06-09,israel,
 2021-06-10,israel,45
 2021-06-11,israel,23
 2021-06-12,israel,8
@@ -2269,7 +2269,7 @@ date,country,newcases
 2021-06-15,kazakhstan,1128
 2021-06-16,kazakhstan,1145
 2021-06-17,kazakhstan,1310
-2021-06-18,kazakhstan,0
+2021-06-18,kazakhstan,
 2021-06-19,kazakhstan,1215
 2021-06-20,kazakhstan,2115
 2021-06-21,kazakhstan,944
@@ -2285,22 +2285,22 @@ date,country,newcases
 2021-07-01,kazakhstan,2666
 2021-07-02,kazakhstan,2852
 2021-07-03,kazakhstan,3073
-2021-07-04,kazakhstan,0
+2021-07-04,kazakhstan,
 2021-07-05,kazakhstan,5731
 2021-07-06,kazakhstan,2747
 2021-07-07,kazakhstan,2826
-2021-07-08,kazakhstan,0
+2021-07-08,kazakhstan,
 2021-07-09,kazakhstan,3049
 2021-07-10,kazakhstan,7055
 2021-07-11,kazakhstan,3939
 2021-07-12,kazakhstan,3712
 2021-07-13,kazakhstan,4542
-2021-07-14,kazakhstan,0
+2021-07-14,kazakhstan,
 2021-07-15,kazakhstan,11211
 2021-07-16,kazakhstan,5658
 2021-07-17,kazakhstan,5639
 2021-07-18,kazakhstan,124
-2021-07-19,kazakhstan,0
+2021-07-19,kazakhstan,
 2021-07-20,kazakhstan,15663
 2021-07-21,kazakhstan,5742
 2021-07-22,kazakhstan,6352
@@ -2312,7 +2312,7 @@ date,country,newcases
 2021-07-28,kazakhstan,7741
 2021-07-29,kazakhstan,7778
 2021-07-30,kazakhstan,8304
-2021-07-31,kazakhstan,0
+2021-07-31,kazakhstan,
 2021-08-01,kazakhstan,15738
 2021-08-02,kazakhstan,7527
 2021-08-03,kazakhstan,7990
@@ -2326,52 +2326,52 @@ date,country,newcases
 2021-08-11,kazakhstan,8174
 2021-05-11,kosovo,346
 2021-05-12,kosovo,113
-2021-05-13,kosovo,0
-2021-05-14,kosovo,0
-2021-05-15,kosovo,0
+2021-05-13,kosovo,
+2021-05-14,kosovo,
+2021-05-15,kosovo,
 2021-05-16,kosovo,263
 2021-05-17,kosovo,25
-2021-05-18,kosovo,0
+2021-05-18,kosovo,
 2021-05-19,kosovo,126
 2021-05-20,kosovo,55
 2021-05-21,kosovo,58
-2021-05-22,kosovo,0
-2021-05-23,kosovo,0
-2021-05-24,kosovo,0
+2021-05-22,kosovo,
+2021-05-23,kosovo,
+2021-05-24,kosovo,
 2021-05-25,kosovo,91
 2021-05-26,kosovo,44
 2021-05-27,kosovo,23
 2021-05-28,kosovo,18
-2021-05-29,kosovo,0
+2021-05-29,kosovo,
 2021-05-30,kosovo,51
 2021-05-31,kosovo,5
 2021-06-01,kosovo,19
 2021-06-02,kosovo,18
 2021-06-03,kosovo,12
 2021-06-04,kosovo,7
-2021-06-05,kosovo,0
-2021-06-06,kosovo,0
+2021-06-05,kosovo,
+2021-06-06,kosovo,
 2021-06-07,kosovo,41
-2021-06-08,kosovo,0
+2021-06-08,kosovo,
 2021-06-09,kosovo,26
-2021-06-10,kosovo,0
-2021-06-11,kosovo,0
-2021-06-12,kosovo,0
+2021-06-10,kosovo,
+2021-06-11,kosovo,
+2021-06-12,kosovo,
 2021-06-13,kosovo,45
 2021-06-14,kosovo,5
-2021-06-15,kosovo,0
+2021-06-15,kosovo,
 2021-06-16,kosovo,17
-2021-06-17,kosovo,0
-2021-06-18,kosovo,0
-2021-06-19,kosovo,0
-2021-06-20,kosovo,0
+2021-06-17,kosovo,
+2021-06-18,kosovo,
+2021-06-19,kosovo,
+2021-06-20,kosovo,
 2021-06-21,kosovo,55
-2021-06-22,kosovo,0
-2021-06-23,kosovo,0
+2021-06-22,kosovo,
+2021-06-23,kosovo,
 2021-06-24,kosovo,52
-2021-06-25,kosovo,0
-2021-06-26,kosovo,0
-2021-06-27,kosovo,0
+2021-06-25,kosovo,
+2021-06-26,kosovo,
+2021-06-27,kosovo,
 2021-06-28,kosovo,32
 2021-06-29,kosovo,4
 2021-06-30,kosovo,423
@@ -2523,48 +2523,48 @@ date,country,newcases
 2021-05-21,liechtenstein,3
 2021-05-22,liechtenstein,1
 2021-05-23,liechtenstein,2
-2021-05-24,liechtenstein,0
+2021-05-24,liechtenstein,
 2021-05-25,liechtenstein,2
-2021-05-26,liechtenstein,0
+2021-05-26,liechtenstein,
 2021-05-27,liechtenstein,4
-2021-05-28,liechtenstein,0
+2021-05-28,liechtenstein,
 2021-05-29,liechtenstein,2
-2021-05-30,liechtenstein,0
+2021-05-30,liechtenstein,
 2021-05-31,liechtenstein,4
-2021-06-01,liechtenstein,0
+2021-06-01,liechtenstein,
 2021-06-02,liechtenstein,4
 2021-06-03,liechtenstein,1
 2021-06-04,liechtenstein,2
 2021-06-05,liechtenstein,1
 2021-06-06,liechtenstein,2
-2021-06-07,liechtenstein,0
-2021-06-08,liechtenstein,0
-2021-06-09,liechtenstein,0
+2021-06-07,liechtenstein,
+2021-06-08,liechtenstein,
+2021-06-09,liechtenstein,
 2021-06-10,liechtenstein,1
 2021-06-11,liechtenstein,1
 2021-06-12,liechtenstein,2
-2021-06-13,liechtenstein,0
-2021-06-14,liechtenstein,0
-2021-06-15,liechtenstein,0
-2021-06-16,liechtenstein,0
-2021-06-17,liechtenstein,0
-2021-06-18,liechtenstein,0
-2021-06-19,liechtenstein,0
-2021-06-20,liechtenstein,0
+2021-06-13,liechtenstein,
+2021-06-14,liechtenstein,
+2021-06-15,liechtenstein,
+2021-06-16,liechtenstein,
+2021-06-17,liechtenstein,
+2021-06-18,liechtenstein,
+2021-06-19,liechtenstein,
+2021-06-20,liechtenstein,
 2021-06-21,liechtenstein,2
-2021-06-22,liechtenstein,0
+2021-06-22,liechtenstein,
 2021-06-23,liechtenstein,2
 2021-06-24,liechtenstein,1
 2021-06-25,liechtenstein,1
-2021-06-26,liechtenstein,0
-2021-06-27,liechtenstein,0
+2021-06-26,liechtenstein,
+2021-06-27,liechtenstein,
 2021-06-28,liechtenstein,2
-2021-06-29,liechtenstein,0
+2021-06-29,liechtenstein,
 2021-06-30,liechtenstein,2
 2021-07-01,liechtenstein,3
 2021-07-02,liechtenstein,1
 2021-07-03,liechtenstein,2
-2021-07-04,liechtenstein,0
+2021-07-04,liechtenstein,
 2021-07-05,liechtenstein,3
 2021-07-06,liechtenstein,2
 2021-07-07,liechtenstein,2
@@ -2573,26 +2573,26 @@ date,country,newcases
 2021-07-10,liechtenstein,2
 2021-07-11,liechtenstein,1
 2021-07-12,liechtenstein,1
-2021-07-13,liechtenstein,0
+2021-07-13,liechtenstein,
 2021-07-14,liechtenstein,2
 2021-07-15,liechtenstein,1
-2021-07-16,liechtenstein,0
-2021-07-17,liechtenstein,0
-2021-07-18,liechtenstein,0
+2021-07-16,liechtenstein,
+2021-07-17,liechtenstein,
+2021-07-18,liechtenstein,
 2021-07-19,liechtenstein,8
-2021-07-20,liechtenstein,0
+2021-07-20,liechtenstein,
 2021-07-21,liechtenstein,1
 2021-07-22,liechtenstein,3
-2021-07-23,liechtenstein,0
+2021-07-23,liechtenstein,
 2021-07-24,liechtenstein,2
-2021-07-25,liechtenstein,0
+2021-07-25,liechtenstein,
 2021-07-26,liechtenstein,1
 2021-07-27,liechtenstein,4
 2021-07-28,liechtenstein,3
 2021-07-29,liechtenstein,2
-2021-07-30,liechtenstein,0
-2021-07-31,liechtenstein,0
-2021-08-01,liechtenstein,0
+2021-07-30,liechtenstein,
+2021-07-31,liechtenstein,
+2021-08-01,liechtenstein,
 2021-08-02,liechtenstein,2
 2021-08-03,liechtenstein,2
 2021-08-04,liechtenstein,2
@@ -2698,94 +2698,94 @@ date,country,newcases
 2021-08-11,lithuania,626
 2021-05-11,luxembourg,121
 2021-05-12,luxembourg,196
-2021-05-13,luxembourg,0
+2021-05-13,luxembourg,
 2021-05-14,luxembourg,174
-2021-05-15,luxembourg,0
-2021-05-16,luxembourg,0
+2021-05-15,luxembourg,
+2021-05-16,luxembourg,
 2021-05-17,luxembourg,268
 2021-05-18,luxembourg,49
 2021-05-19,luxembourg,159
 2021-05-20,luxembourg,67
 2021-05-21,luxembourg,80
-2021-05-22,luxembourg,0
-2021-05-23,luxembourg,0
-2021-05-24,luxembourg,0
+2021-05-22,luxembourg,
+2021-05-23,luxembourg,
+2021-05-24,luxembourg,
 2021-05-25,luxembourg,34
 2021-05-26,luxembourg,90
 2021-05-27,luxembourg,80
 2021-05-28,luxembourg,81
-2021-05-29,luxembourg,0
-2021-05-30,luxembourg,0
+2021-05-29,luxembourg,
+2021-05-30,luxembourg,
 2021-05-31,luxembourg,102
 2021-06-01,luxembourg,51
 2021-06-02,luxembourg,44
 2021-06-03,luxembourg,61
 2021-06-04,luxembourg,94
-2021-06-05,luxembourg,0
-2021-06-06,luxembourg,0
+2021-06-05,luxembourg,
+2021-06-06,luxembourg,
 2021-06-07,luxembourg,74
 2021-06-08,luxembourg,35
 2021-06-09,luxembourg,52
 2021-06-10,luxembourg,40
 2021-06-11,luxembourg,23
-2021-06-12,luxembourg,0
-2021-06-13,luxembourg,0
+2021-06-12,luxembourg,
+2021-06-13,luxembourg,
 2021-06-14,luxembourg,39
 2021-06-15,luxembourg,21
 2021-06-16,luxembourg,19
 2021-06-17,luxembourg,18
 2021-06-18,luxembourg,13
-2021-06-19,luxembourg,0
-2021-06-20,luxembourg,0
+2021-06-19,luxembourg,
+2021-06-20,luxembourg,
 2021-06-21,luxembourg,19
 2021-06-22,luxembourg,12
-2021-06-23,luxembourg,0
+2021-06-23,luxembourg,
 2021-06-24,luxembourg,39
 2021-06-25,luxembourg,14
-2021-06-26,luxembourg,0
-2021-06-27,luxembourg,0
+2021-06-26,luxembourg,
+2021-06-27,luxembourg,
 2021-06-28,luxembourg,42
 2021-06-29,luxembourg,53
 2021-06-30,luxembourg,92
 2021-07-01,luxembourg,108
 2021-07-02,luxembourg,136
-2021-07-03,luxembourg,0
-2021-07-04,luxembourg,0
+2021-07-03,luxembourg,
+2021-07-04,luxembourg,
 2021-07-05,luxembourg,398
 2021-07-06,luxembourg,118
 2021-07-07,luxembourg,201
 2021-07-08,luxembourg,131
 2021-07-09,luxembourg,131
-2021-07-10,luxembourg,0
-2021-07-11,luxembourg,0
+2021-07-10,luxembourg,
+2021-07-11,luxembourg,
 2021-07-12,luxembourg,247
 2021-07-13,luxembourg,134
 2021-07-14,luxembourg,118
 2021-07-15,luxembourg,123
 2021-07-16,luxembourg,127
-2021-07-17,luxembourg,0
-2021-07-18,luxembourg,0
+2021-07-17,luxembourg,
+2021-07-18,luxembourg,
 2021-07-19,luxembourg,226
 2021-07-20,luxembourg,89
 2021-07-21,luxembourg,141
 2021-07-22,luxembourg,94
 2021-07-23,luxembourg,103
-2021-07-24,luxembourg,0
-2021-07-25,luxembourg,0
+2021-07-24,luxembourg,
+2021-07-25,luxembourg,
 2021-07-26,luxembourg,139
 2021-07-27,luxembourg,86
 2021-07-28,luxembourg,107
 2021-07-29,luxembourg,72
 2021-07-30,luxembourg,54
-2021-07-31,luxembourg,0
-2021-08-01,luxembourg,0
+2021-07-31,luxembourg,
+2021-08-01,luxembourg,
 2021-08-02,luxembourg,120
 2021-08-03,luxembourg,52
 2021-08-04,luxembourg,102
 2021-08-05,luxembourg,68
 2021-08-06,luxembourg,50
-2021-08-07,luxembourg,0
-2021-08-08,luxembourg,0
+2021-08-07,luxembourg,
+2021-08-08,luxembourg,
 2021-08-09,luxembourg,133
 2021-08-10,luxembourg,42
 2021-08-11,luxembourg,61
@@ -2816,27 +2816,27 @@ date,country,newcases
 2021-06-04,malta,2
 2021-06-05,malta,9
 2021-06-06,malta,3
-2021-06-07,malta,0
+2021-06-07,malta,
 2021-06-08,malta,1
 2021-06-09,malta,1
 2021-06-10,malta,4
 2021-06-11,malta,2
 2021-06-12,malta,2
-2021-06-13,malta,0
+2021-06-13,malta,
 2021-06-14,malta,1
-2021-06-15,malta,0
+2021-06-15,malta,
 2021-06-16,malta,3
-2021-06-17,malta,0
+2021-06-17,malta,
 2021-06-18,malta,3
-2021-06-19,malta,0
+2021-06-19,malta,
 2021-06-20,malta,1
 2021-06-21,malta,1
 2021-06-22,malta,5
-2021-06-23,malta,0
+2021-06-23,malta,
 2021-06-24,malta,3
 2021-06-25,malta,5
 2021-06-26,malta,3
-2021-06-27,malta,0
+2021-06-27,malta,
 2021-06-28,malta,6
 2021-06-29,malta,6
 2021-06-30,malta,5
@@ -3231,7 +3231,7 @@ date,country,newcases
 2021-07-17,north macedonia,19
 2021-07-18,north macedonia,21
 2021-07-19,north macedonia,9
-2021-07-20,north macedonia,0
+2021-07-20,north macedonia,
 2021-07-21,north macedonia,34
 2021-07-22,north macedonia,16
 2021-07-23,north macedonia,36
@@ -3719,102 +3719,102 @@ date,country,newcases
 2021-08-09,russia,21554
 2021-08-10,russia,20765
 2021-08-11,russia,20958
-2021-05-11,san marino,0
-2021-05-12,san marino,0
-2021-05-13,san marino,0
-2021-05-14,san marino,0
-2021-05-15,san marino,0
-2021-05-16,san marino,0
+2021-05-11,san marino,
+2021-05-12,san marino,
+2021-05-13,san marino,
+2021-05-14,san marino,
+2021-05-15,san marino,
+2021-05-16,san marino,
 2021-05-17,san marino,4
-2021-05-18,san marino,0
-2021-05-19,san marino,0
-2021-05-20,san marino,0
-2021-05-21,san marino,0
-2021-05-22,san marino,0
-2021-05-23,san marino,0
+2021-05-18,san marino,
+2021-05-19,san marino,
+2021-05-20,san marino,
+2021-05-21,san marino,
+2021-05-22,san marino,
+2021-05-23,san marino,
 2021-05-24,san marino,2
-2021-05-25,san marino,0
-2021-05-26,san marino,0
-2021-05-27,san marino,0
-2021-05-28,san marino,0
-2021-05-29,san marino,0
-2021-05-30,san marino,0
+2021-05-25,san marino,
+2021-05-26,san marino,
+2021-05-27,san marino,
+2021-05-28,san marino,
+2021-05-29,san marino,
+2021-05-30,san marino,
 2021-05-31,san marino,1
-2021-06-01,san marino,0
-2021-06-02,san marino,0
-2021-06-03,san marino,0
-2021-06-04,san marino,0
-2021-06-05,san marino,0
-2021-06-06,san marino,0
-2021-06-07,san marino,0
-2021-06-08,san marino,0
-2021-06-09,san marino,0
-2021-06-10,san marino,0
-2021-06-11,san marino,0
-2021-06-12,san marino,0
-2021-06-13,san marino,0
-2021-06-14,san marino,0
-2021-06-15,san marino,0
-2021-06-16,san marino,0
-2021-06-17,san marino,0
-2021-06-18,san marino,0
-2021-06-19,san marino,0
-2021-06-20,san marino,0
-2021-06-21,san marino,0
-2021-06-22,san marino,0
-2021-06-23,san marino,0
-2021-06-24,san marino,0
-2021-06-25,san marino,0
-2021-06-26,san marino,0
-2021-06-27,san marino,0
+2021-06-01,san marino,
+2021-06-02,san marino,
+2021-06-03,san marino,
+2021-06-04,san marino,
+2021-06-05,san marino,
+2021-06-06,san marino,
+2021-06-07,san marino,
+2021-06-08,san marino,
+2021-06-09,san marino,
+2021-06-10,san marino,
+2021-06-11,san marino,
+2021-06-12,san marino,
+2021-06-13,san marino,
+2021-06-14,san marino,
+2021-06-15,san marino,
+2021-06-16,san marino,
+2021-06-17,san marino,
+2021-06-18,san marino,
+2021-06-19,san marino,
+2021-06-20,san marino,
+2021-06-21,san marino,
+2021-06-22,san marino,
+2021-06-23,san marino,
+2021-06-24,san marino,
+2021-06-25,san marino,
+2021-06-26,san marino,
+2021-06-27,san marino,
 2021-06-28,san marino,1
-2021-06-29,san marino,0
-2021-06-30,san marino,0
-2021-07-01,san marino,0
-2021-07-02,san marino,0
-2021-07-03,san marino,0
-2021-07-04,san marino,0
+2021-06-29,san marino,
+2021-06-30,san marino,
+2021-07-01,san marino,
+2021-07-02,san marino,
+2021-07-03,san marino,
+2021-07-04,san marino,
 2021-07-05,san marino,1
-2021-07-06,san marino,0
-2021-07-07,san marino,0
-2021-07-08,san marino,0
-2021-07-09,san marino,0
-2021-07-10,san marino,0
-2021-07-11,san marino,0
-2021-07-12,san marino,0
+2021-07-06,san marino,
+2021-07-07,san marino,
+2021-07-08,san marino,
+2021-07-09,san marino,
+2021-07-10,san marino,
+2021-07-11,san marino,
+2021-07-12,san marino,
 2021-07-13,san marino,2
-2021-07-14,san marino,0
-2021-07-15,san marino,0
-2021-07-16,san marino,0
-2021-07-17,san marino,0
-2021-07-18,san marino,0
+2021-07-14,san marino,
+2021-07-15,san marino,
+2021-07-16,san marino,
+2021-07-17,san marino,
+2021-07-18,san marino,
 2021-07-19,san marino,5
-2021-07-20,san marino,0
-2021-07-21,san marino,0
-2021-07-22,san marino,0
-2021-07-23,san marino,0
-2021-07-24,san marino,0
-2021-07-25,san marino,0
+2021-07-20,san marino,
+2021-07-21,san marino,
+2021-07-22,san marino,
+2021-07-23,san marino,
+2021-07-24,san marino,
+2021-07-25,san marino,
 2021-07-26,san marino,31
-2021-07-27,san marino,0
-2021-07-28,san marino,0
-2021-07-29,san marino,0
-2021-07-30,san marino,0
-2021-07-31,san marino,0
-2021-08-01,san marino,0
+2021-07-27,san marino,
+2021-07-28,san marino,
+2021-07-29,san marino,
+2021-07-30,san marino,
+2021-07-31,san marino,
+2021-08-01,san marino,
 2021-08-02,san marino,17
-2021-08-03,san marino,0
-2021-08-04,san marino,0
-2021-08-05,san marino,0
-2021-08-06,san marino,0
-2021-08-07,san marino,0
-2021-08-08,san marino,0
+2021-08-03,san marino,
+2021-08-04,san marino,
+2021-08-05,san marino,
+2021-08-06,san marino,
+2021-08-07,san marino,
+2021-08-08,san marino,
 2021-08-09,san marino,47
-2021-08-10,san marino,0
-2021-08-11,san marino,0
+2021-08-10,san marino,
+2021-08-11,san marino,
 2021-05-11,serbia,1125
 2021-05-12,serbia,1046
-2021-05-13,serbia,0
+2021-05-13,serbia,
 2021-05-14,serbia,1688
 2021-05-15,serbia,705
 2021-05-16,serbia,568
@@ -3923,7 +3923,7 @@ date,country,newcases
 2021-05-26,slovakia,190
 2021-05-27,slovakia,168
 2021-05-28,slovakia,96
-2021-05-29,slovakia,0
+2021-05-29,slovakia,
 2021-05-30,slovakia,250
 2021-05-31,slovakia,31
 2021-06-01,slovakia,145
@@ -3944,8 +3944,8 @@ date,country,newcases
 2021-06-16,slovakia,62
 2021-06-17,slovakia,61
 2021-06-18,slovakia,38
-2021-06-19,slovakia,0
-2021-06-20,slovakia,0
+2021-06-19,slovakia,
+2021-06-20,slovakia,
 2021-06-21,slovakia,78
 2021-06-22,slovakia,59
 2021-06-23,slovakia,35
@@ -3972,14 +3972,14 @@ date,country,newcases
 2021-07-14,slovakia,18
 2021-07-15,slovakia,29
 2021-07-16,slovakia,34
-2021-07-17,slovakia,0
+2021-07-17,slovakia,
 2021-07-18,slovakia,66
 2021-07-19,slovakia,4
 2021-07-20,slovakia,35
 2021-07-21,slovakia,46
 2021-07-22,slovakia,34
 2021-07-23,slovakia,40
-2021-07-24,slovakia,0
+2021-07-24,slovakia,
 2021-07-25,slovakia,89
 2021-07-26,slovakia,7
 2021-07-27,slovakia,51
@@ -3992,7 +3992,7 @@ date,country,newcases
 2021-08-03,slovakia,41
 2021-08-04,slovakia,94
 2021-08-05,slovakia,53
-2021-08-06,slovakia,0
+2021-08-06,slovakia,
 2021-08-07,slovakia,109
 2021-08-08,slovakia,33
 2021-08-09,slovakia,19
@@ -4095,278 +4095,278 @@ date,country,newcases
 2021-05-12,spain,6418
 2021-05-13,spain,5701
 2021-05-14,spain,6347
-2021-05-15,spain,0
-2021-05-16,spain,0
+2021-05-15,spain,
+2021-05-16,spain,
 2021-05-17,spain,11061
 2021-05-18,spain,3988
 2021-05-19,spain,6080
 2021-05-20,spain,5733
 2021-05-21,spain,4792
-2021-05-22,spain,0
-2021-05-23,spain,0
+2021-05-22,spain,
+2021-05-23,spain,
 2021-05-24,spain,11067
 2021-05-25,spain,5359
 2021-05-26,spain,5007
 2021-05-27,spain,5290
 2021-05-28,spain,5482
-2021-05-29,spain,0
-2021-05-30,spain,0
+2021-05-29,spain,
+2021-05-30,spain,
 2021-05-31,spain,9732
 2021-06-01,spain,4388
 2021-06-02,spain,4984
 2021-06-03,spain,5250
 2021-06-04,spain,4969
-2021-06-05,spain,0
-2021-06-06,spain,0
+2021-06-05,spain,
+2021-06-06,spain,
 2021-06-07,spain,9542
 2021-06-08,spain,3504
 2021-06-09,spain,4427
 2021-06-10,spain,14004
 2021-06-11,spain,4142
-2021-06-12,spain,0
-2021-06-13,spain,0
+2021-06-12,spain,
+2021-06-13,spain,
 2021-06-14,spain,8167
 2021-06-15,spain,3432
 2021-06-16,spain,3832
 2021-06-17,spain,4197
 2021-06-18,spain,4214
-2021-06-19,spain,0
-2021-06-20,spain,0
+2021-06-19,spain,
+2021-06-20,spain,
 2021-06-21,spain,7209
 2021-06-22,spain,4040
 2021-06-23,spain,4341
 2021-06-24,spain,4507
 2021-06-25,spain,4924
-2021-06-26,spain,0
-2021-06-27,spain,0
+2021-06-26,spain,
+2021-06-27,spain,
 2021-06-28,spain,10179
 2021-06-29,spain,7091
 2021-06-30,spain,9227
 2021-07-01,spain,12345
 2021-07-02,spain,12563
-2021-07-03,spain,0
-2021-07-04,spain,0
+2021-07-03,spain,
+2021-07-04,spain,
 2021-07-05,spain,32607
 2021-07-06,spain,14137
 2021-07-07,spain,17384
 2021-07-08,spain,17317
 2021-07-09,spain,21879
-2021-07-10,spain,0
-2021-07-11,spain,0
+2021-07-10,spain,
+2021-07-11,spain,
 2021-07-12,spain,33932
 2021-07-13,spain,43960
 2021-07-14,spain,26390
 2021-07-15,spain,27688
 2021-07-16,spain,31060
-2021-07-17,spain,0
-2021-07-18,spain,0
+2021-07-17,spain,
+2021-07-18,spain,
 2021-07-19,spain,61628
 2021-07-20,spain,27286
 2021-07-21,spain,30587
 2021-07-22,spain,29535
 2021-07-23,spain,31171
-2021-07-24,spain,0
-2021-07-25,spain,0
+2021-07-24,spain,
+2021-07-25,spain,
 2021-07-26,spain,61625
 2021-07-27,spain,26399
 2021-07-28,spain,27149
 2021-07-29,spain,26689
 2021-07-30,spain,24753
-2021-07-31,spain,0
-2021-08-01,spain,0
+2021-07-31,spain,
+2021-08-01,spain,
 2021-08-02,spain,55939
 2021-08-03,spain,20327
 2021-08-04,spain,21874
 2021-08-05,spain,21387
 2021-08-06,spain,21561
-2021-08-07,spain,0
-2021-08-08,spain,0
+2021-08-07,spain,
+2021-08-08,spain,
 2021-08-09,spain,39638
 2021-08-10,spain,15680
 2021-08-11,spain,17023
 2021-05-11,sweden,13812
 2021-05-12,sweden,6330
-2021-05-13,sweden,0
+2021-05-13,sweden,
 2021-05-14,sweden,9192
-2021-05-15,sweden,0
-2021-05-16,sweden,0
-2021-05-17,sweden,0
+2021-05-15,sweden,
+2021-05-16,sweden,
+2021-05-17,sweden,
 2021-05-18,sweden,10017
 2021-05-19,sweden,4619
 2021-05-20,sweden,3411
 2021-05-21,sweden,3168
-2021-05-22,sweden,0
-2021-05-23,sweden,0
-2021-05-24,sweden,0
+2021-05-22,sweden,
+2021-05-23,sweden,
+2021-05-24,sweden,
 2021-05-25,sweden,6034
 2021-05-26,sweden,2732
 2021-05-27,sweden,1366
-2021-05-28,sweden,0
-2021-05-29,sweden,0
-2021-05-30,sweden,0
-2021-05-31,sweden,0
-2021-06-01,sweden,0
-2021-06-02,sweden,0
+2021-05-28,sweden,
+2021-05-29,sweden,
+2021-05-30,sweden,
+2021-05-31,sweden,
+2021-06-01,sweden,
+2021-06-02,sweden,
 2021-06-03,sweden,8520
 2021-06-04,sweden,1069
-2021-06-05,sweden,0
-2021-06-06,sweden,0
-2021-06-07,sweden,0
+2021-06-05,sweden,
+2021-06-06,sweden,
+2021-06-07,sweden,
 2021-06-08,sweden,2671
 2021-06-09,sweden,1165
 2021-06-10,sweden,831
 2021-06-11,sweden,727
-2021-06-12,sweden,0
-2021-06-13,sweden,0
-2021-06-14,sweden,0
+2021-06-12,sweden,
+2021-06-13,sweden,
+2021-06-14,sweden,
 2021-06-15,sweden,1180
-2021-06-16,sweden,0
-2021-06-17,sweden,0
-2021-06-18,sweden,0
-2021-06-19,sweden,0
-2021-06-20,sweden,0
-2021-06-21,sweden,0
+2021-06-16,sweden,
+2021-06-17,sweden,
+2021-06-18,sweden,
+2021-06-19,sweden,
+2021-06-20,sweden,
+2021-06-21,sweden,
 2021-06-22,sweden,3378
 2021-06-23,sweden,504
 2021-06-24,sweden,378
-2021-06-25,sweden,0
-2021-06-26,sweden,0
-2021-06-27,sweden,0
-2021-06-28,sweden,0
+2021-06-25,sweden,
+2021-06-26,sweden,
+2021-06-27,sweden,
+2021-06-28,sweden,
 2021-06-29,sweden,847
 2021-06-30,sweden,247
 2021-07-01,sweden,563
 2021-07-02,sweden,327
-2021-07-03,sweden,0
-2021-07-04,sweden,0
-2021-07-05,sweden,0
+2021-07-03,sweden,
+2021-07-04,sweden,
+2021-07-05,sweden,
 2021-07-06,sweden,850
 2021-07-07,sweden,353
 2021-07-08,sweden,225
 2021-07-09,sweden,232
-2021-07-10,sweden,0
-2021-07-11,sweden,0
-2021-07-12,sweden,0
+2021-07-10,sweden,
+2021-07-11,sweden,
+2021-07-12,sweden,
 2021-07-13,sweden,669
 2021-07-14,sweden,367
 2021-07-15,sweden,347
 2021-07-16,sweden,364
-2021-07-17,sweden,0
-2021-07-18,sweden,0
-2021-07-19,sweden,0
+2021-07-17,sweden,
+2021-07-18,sweden,
+2021-07-19,sweden,
 2021-07-20,sweden,992
 2021-07-21,sweden,479
 2021-07-22,sweden,583
 2021-07-23,sweden,458
-2021-07-24,sweden,0
-2021-07-25,sweden,0
-2021-07-26,sweden,0
+2021-07-24,sweden,
+2021-07-25,sweden,
+2021-07-26,sweden,
 2021-07-27,sweden,1355
 2021-07-28,sweden,641
 2021-07-29,sweden,619
 2021-07-30,sweden,626
-2021-07-31,sweden,0
-2021-08-01,sweden,0
-2021-08-02,sweden,0
+2021-07-31,sweden,
+2021-08-01,sweden,
+2021-08-02,sweden,
 2021-08-03,sweden,1860
 2021-08-04,sweden,929
 2021-08-05,sweden,864
 2021-08-06,sweden,845
-2021-08-07,sweden,0
-2021-08-08,sweden,0
-2021-08-09,sweden,0
+2021-08-07,sweden,
+2021-08-08,sweden,
+2021-08-09,sweden,
 2021-08-10,sweden,2283
 2021-08-11,sweden,1236
 2021-05-11,switzerland,1375
 2021-05-12,switzerland,1539
-2021-05-13,switzerland,0
+2021-05-13,switzerland,
 2021-05-14,switzerland,2300
-2021-05-15,switzerland,0
-2021-05-16,switzerland,0
+2021-05-15,switzerland,
+2021-05-16,switzerland,
 2021-05-17,switzerland,2650
 2021-05-18,switzerland,1240
 2021-05-19,switzerland,1554
 2021-05-20,switzerland,1198
-2021-05-21,switzerland,0
+2021-05-21,switzerland,
 2021-05-22,switzerland,1201
-2021-05-23,switzerland,0
-2021-05-24,switzerland,0
+2021-05-23,switzerland,
+2021-05-24,switzerland,
 2021-05-25,switzerland,2770
 2021-05-26,switzerland,996
 2021-05-27,switzerland,992
 2021-05-28,switzerland,912
-2021-05-29,switzerland,0
-2021-05-30,switzerland,0
+2021-05-29,switzerland,
+2021-05-30,switzerland,
 2021-05-31,switzerland,1717
 2021-06-01,switzerland,756
 2021-06-02,switzerland,717
 2021-06-03,switzerland,588
 2021-06-04,switzerland,491
-2021-06-05,switzerland,0
-2021-06-06,switzerland,0
+2021-06-05,switzerland,
+2021-06-06,switzerland,
 2021-06-07,switzerland,1077
 2021-06-08,switzerland,429
-2021-06-09,switzerland,0
+2021-06-09,switzerland,
 2021-06-10,switzerland,899
 2021-06-11,switzerland,354
-2021-06-12,switzerland,0
-2021-06-13,switzerland,0
+2021-06-12,switzerland,
+2021-06-13,switzerland,
 2021-06-14,switzerland,684
 2021-06-15,switzerland,243
 2021-06-16,switzerland,282
 2021-06-17,switzerland,194
 2021-06-18,switzerland,173
-2021-06-19,switzerland,0
-2021-06-20,switzerland,0
+2021-06-19,switzerland,
+2021-06-20,switzerland,
 2021-06-21,switzerland,367
 2021-06-22,switzerland,130
 2021-06-23,switzerland,154
 2021-06-24,switzerland,120
 2021-06-25,switzerland,109
-2021-06-26,switzerland,0
-2021-06-27,switzerland,0
+2021-06-26,switzerland,
+2021-06-27,switzerland,
 2021-06-28,switzerland,239
 2021-06-29,switzerland,129
 2021-06-30,switzerland,129
 2021-07-01,switzerland,172
 2021-07-02,switzerland,158
-2021-07-03,switzerland,0
-2021-07-04,switzerland,0
+2021-07-03,switzerland,
+2021-07-04,switzerland,
 2021-07-05,switzerland,449
 2021-07-06,switzerland,274
 2021-07-07,switzerland,295
 2021-07-08,switzerland,268
 2021-07-09,switzerland,323
-2021-07-10,switzerland,0
-2021-07-11,switzerland,0
+2021-07-10,switzerland,
+2021-07-11,switzerland,
 2021-07-12,switzerland,822
 2021-07-13,switzerland,483
 2021-07-14,switzerland,527
 2021-07-15,switzerland,582
-2021-07-16,switzerland,0
+2021-07-16,switzerland,
 2021-07-17,switzerland,619
-2021-07-18,switzerland,0
+2021-07-18,switzerland,
 2021-07-19,switzerland,1560
 2021-07-20,switzerland,707
 2021-07-21,switzerland,773
 2021-07-22,switzerland,861
 2021-07-23,switzerland,791
-2021-07-24,switzerland,0
-2021-07-25,switzerland,0
+2021-07-24,switzerland,
+2021-07-25,switzerland,
 2021-07-26,switzerland,1746
 2021-07-27,switzerland,853
 2021-07-28,switzerland,771
 2021-07-29,switzerland,827
 2021-07-30,switzerland,800
-2021-07-31,switzerland,0
-2021-08-01,switzerland,0
+2021-07-31,switzerland,
+2021-08-01,switzerland,
 2021-08-02,switzerland,2019
 2021-08-03,switzerland,1059
 2021-08-04,switzerland,1033
 2021-08-05,switzerland,1025
 2021-08-06,switzerland,1167
-2021-08-07,switzerland,0
-2021-08-08,switzerland,0
+2021-08-07,switzerland,
+2021-08-08,switzerland,
 2021-08-09,switzerland,3145
 2021-08-10,switzerland,1911
 2021-08-11,switzerland,2124
@@ -4438,7 +4438,7 @@ date,country,newcases
 2021-07-15,turkey,7304
 2021-07-16,turkey,6918
 2021-07-17,turkey,7666
-2021-07-18,turkey,0
+2021-07-18,turkey,
 2021-07-19,turkey,15347
 2021-07-20,turkey,8780
 2021-07-21,turkey,8151
@@ -4459,7 +4459,7 @@ date,country,newcases
 2021-08-05,turkey,24297
 2021-08-06,turkey,23957
 2021-08-07,turkey,25100
-2021-08-08,turkey,0
+2021-08-08,turkey,
 2021-08-09,turkey,46400
 2021-08-10,turkey,26597
 2021-08-11,turkey,27356

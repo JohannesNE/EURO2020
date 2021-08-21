@@ -4,36 +4,34 @@ library("data.table")
 # the European football championship (EURO2020)
 
 # All participants in the round of 16 - can be extended to all participants if needed
-ro16 <- c("belgium", "portugal",
-          "italy", "austria",
-          "france", "switzerland",
-          "croatia",  "spain",
-          "sweden", "ukraine",
-          "germany", "denmark",
-          "netherlands", "czechia",
-          "wales", "england")
+eligible <- tolower(fread("raw/countries.csv", header = FALSE)[V1 != "Gibraltar", V1])
+eligible <- c(eligible, "czechia", "ireland")
 
 # Case counts for each country
 # Data is obtained from OWID for all countries except Wales and England
 cases <- fread("https://github.com/owid/covid-19-data/raw/master/public/data/jhu/new_cases.csv")
 setnames(cases, tolower)
+avail_countries <- names(cases)[names(cases) %in% eligible]
 cases <- cases[between(date, as.Date("2021-05-11"), as.Date("2021-08-11")),
-               c("date", ro16[1:14]), with = FALSE]
+               c("date", avail_countries), with = FALSE]
 cases <- melt(cases, "date", variable.name = "country", value.name = "newcases")
+cases <- cases[newcases == 0, newcases := NA]
 
 # Obtain UK data stratified by nation (Wales/England)
 uk <- fread("https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=newCasesByPublishDate&format=csv")
 uk[, areaName := tolower(areaName)]
-uk <- uk[between(date, as.Date("2021-05-11"), as.Date("2021-08-11")) &
-         areaName %in% ro16[15:16], .(date, country = areaName, newcases = newCasesByPublishDate)]
+uk <- uk[between(date, as.Date("2021-05-11"), as.Date("2021-08-11")),
+         .(date, country = areaName, newcases = newCasesByPublishDate)]
 cases <- rbindlist(list(cases, uk))
 rm(uk)
+fwrite(cases, "input/cases.csv")
 
-# Obtain data on daily vaccination progress in %
+# ------------- VACCINATION PROGRESS IN % OF THE POPULATION
+
 vacc <- fread("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv")
 vacc[, location := tolower(location)]
 vacc <- vacc[between(date, as.Date("2021-05-11"), as.Date("2021-08-11")) &
-             location %in% ro16]
+             location %in% eligible]
 setnames(vacc, c("location", "people_vaccinated_per_hundred", "people_fully_vaccinated_per_hundred"),
                c("country", "vx", "vx_full"))
 vacc <- vacc[, .(date, country, vx, vx_full)]
@@ -43,8 +41,8 @@ vacc <- vacc[, .(date, country, vx, vx_full)]
 delta <- fread("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/variants/covid-variants.csv")
 delta[, location := tolower(location)]
 delta <- delta[variant == "Delta" &
-               location %in% ro16 &
-               between(date, as.Date("2021-05-11"), as.Date("2021-08-11"))]
+               location %in% eligible &
+               between(date, as.Date("2021-04-11"), as.Date("2021-08-11"))]
 delta <- delta[, .(country = location, date, num_sequences, perc_sequences)]
 
 # Data for Wales/England were manually obtained from:
@@ -64,8 +62,8 @@ restr <- fread("https://github.com/OxCGRT/covid-policy-tracker/blob/master/data/
 setnames(restr, tolower)
 restr[, countryname := tolower(countryname)]
 restr[, regionname := tolower(regionname)]
-restr <- restr[(countryname %in% ro16) |
-               (countryname == "united kingdom" & regionname %in% ro16) |
+restr <- restr[(countryname %in% eligible) |
+               (countryname == "united kingdom" & regionname %in% eligible) |
                (countryname == "czech republic")]
 # Transform United Kingdom to England and Wales (restrictions applied to both nations)
 restr[countryname == "united kingdom", countryname := regionname]
@@ -77,7 +75,7 @@ restr[, gatherlim := factor(gatherlim, levels = 0:4, labels = c("no restr", "100
 restr[, masks := factor(masks, levels = 0:4, labels = c("never", "recommended", "risk situations", "public spaces", "always"))]
 
 # Match results for EURO2020 (manually curated)
-matches <- fread("matches.csv")
+matches <- fread("raw/matches.csv")
 
 # Transform EURO2020 data to contain 1 observation per match per country
 # Split matches into home and away matches
@@ -107,5 +105,12 @@ matches[!grepl("Group", stage) & result == 1,
 matches <- matches[, .(date, country, stage, home, goals, opp_goals, result)] # Drop unneeded variables
 matches[, penalties := grepl("Group", stage) & goals == opp_goals] # Indicator variable if the match was decided by penalties
 matches[grepl("Group", stage), stage := substr(stage, 1, 5)]
-
 rm(hometeam, awayteam)
+
+final <- purrr::reduce(
+    list(cases, vacc, restr),
+    merge, by = c("country", "date"),
+    all.x = TRUE, all.y = FALSE
+)
+final <- delta[final, on = .(country, date), roll = Inf]
+fwrite(final, "input/analysis.csv")
