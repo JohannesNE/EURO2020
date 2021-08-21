@@ -9,10 +9,16 @@ final[euro == 1,
                     country %in% c("sweden", "germany", "croatia", "france",
                                    "wales", "austria", "netherlands", "portugal"), 2,
                     euro == 1, 1)]
-plt <- final[euro > 0 &
+plt <- final[(euro > 0 |
+             (euro == 0 & country %in% c("estonia", "iceland", "greece", "ireland",
+                                         "northern ireland", "norway", "slovenia",
+                                         "luxembourg"))) &
              between(date, as.Date("2021-06-11") - 14, as.Date("2021-07-11") + 14)]
 
-plts <- lapply(1:5, function(lvl) {
+titles <- c("Not qualified", "Group stages", "Round of 16",
+            "Quarterfinals", "Semifinals", "Finals")
+
+plts <- lapply(0:5, function(lvl) {
     ggplot(plt[euro == lvl], aes(x = date, y = newcases)) +
                 geom_vline(xintercept = c(as.Date("2021-06-11"),
                             as.Date("2021-07-11")),
@@ -24,18 +30,25 @@ plts <- lapply(1:5, function(lvl) {
                            lty = 2) +
                 facet_grid(rows = vars(country),
                            scales = "free") +
+        scale_y_log10(breaks = c(10, 100, 1000, 10000, 100000)) +
+        ylab("") +
+        xlab("") +
+        ggtitle(titles[lvl + 1]) +
         theme_minimal() +
-        theme(panel.grid.major.x = element_blank(),
+        theme(axis.text.x = element_blank(),
+              axis.ticks.x = element_blank(),
+              panel.grid.major.x = element_blank(),
               panel.grid.minor.x = element_blank())
 })
 
-plts[[1]] + plts[[2]] + plts[[3]] + plts[[4]] + plts[[5]] +
-    plot_layout(design = "12###
-                          12###
-                          123##
-                          12345
-                          12345
-                          123##
-                          12###
-                          12###") +
-    plot_annotation(tag_levels = "A")
+tourney <-
+    plts[[1]] + plts[[2]] + plts[[3]] + plts[[4]] + plts[[5]] + plts[[6]] +
+        plot_layout(design = "123456
+                              123456
+                              1234##
+                              1234##
+                              123###
+                              123###
+                              123###
+                              123###")
+ggsave(plot = tourney, "figures/figure1.pdf", width = 15, height = 8, units = "in")
