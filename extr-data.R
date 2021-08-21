@@ -3,6 +3,9 @@ library("data.table")
 # Datasets for investigating changes in spread of SARS-CoV-2 after
 # the European football championship (EURO2020)
 
+obs_start <- as.Date("2021-04-11")
+obs_end <- as.Date("2021-08-11")
+
 # All participants in the round of 16 - can be extended to all participants if needed
 eligible <- tolower(fread("raw/countries.csv", header = FALSE)[V1 != "Gibraltar", V1])
 eligible <- c(eligible, "czechia", "ireland")
@@ -12,7 +15,7 @@ eligible <- c(eligible, "czechia", "ireland")
 cases <- fread("https://github.com/owid/covid-19-data/raw/master/public/data/jhu/new_cases.csv")
 setnames(cases, tolower)
 avail_countries <- names(cases)[names(cases) %in% eligible]
-cases <- cases[between(date, as.Date("2021-05-11"), as.Date("2021-08-11")),
+cases <- cases[between(date, obs_start, obs_end),
                c("date", avail_countries), with = FALSE]
 cases <- melt(cases, "date", variable.name = "country", value.name = "newcases")
 cases <- cases[newcases < 1, newcases := NA]
@@ -26,7 +29,7 @@ tests <- tests[, .(country, date = Date, ntests = `Daily change in cumulative to
 # Obtain UK data stratified by nation (Wales/England)
 uk <- fread("https://api.coronavirus.data.gov.uk/v2/data?areaType=nation&metric=newCasesByPublishDate&format=csv")
 uk[, areaName := tolower(areaName)]
-uk <- uk[between(date, as.Date("2021-05-11"), as.Date("2021-08-11")),
+uk <- uk[between(date, obs_start, obs_end),
          .(date, country = areaName, newcases = newCasesByPublishDate)]
 cases <- rbindlist(list(cases, uk))
 rm(uk)
@@ -36,7 +39,7 @@ fwrite(cases, "input/cases.csv")
 
 vacc <- fread("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv")
 vacc[, location := tolower(location)]
-vacc <- vacc[between(date, as.Date("2021-05-11"), as.Date("2021-08-11")) &
+vacc <- vacc[between(date, obs_start, obs_end) &
              location %in% eligible]
 setnames(vacc, c("location", "people_vaccinated_per_hundred", "people_fully_vaccinated_per_hundred"),
                c("country", "vx", "vx_full"))
@@ -48,7 +51,7 @@ delta <- fread("https://raw.githubusercontent.com/owid/covid-19-data/master/publ
 delta[, location := tolower(location)]
 delta <- delta[variant == "Delta" &
                location %in% eligible &
-               between(date, as.Date("2021-04-11"), as.Date("2021-08-11"))]
+               between(date, obs_start - 30, obs_end)]
 delta <- delta[, .(country = location, date, num_sequences, perc_sequences)]
 delta <- delta[country != "denmark"]
 
@@ -79,7 +82,7 @@ restr <- restr[(countryname %in% eligible) |
 # Transform United Kingdom to England and Wales (restrictions applied to both nations)
 restr[countryname == "united kingdom", countryname := regionname]
 restr[, date := as.Date(paste0(substr(date, 1, 4), "-", substr(date, 5, 6), "-", substr(date, 7, 8)))]
-restr <- restr[between(date, as.Date("2021-05-11"), as.Date("2021-08-11"))]
+restr <- restr[between(date, obs_start, obs_end)]
 restr <- restr[, .(country = countryname, date,
                    masks = `h6_facial coverings`, gatherlim = `c4_restrictions on gatherings`)]
 restr[, gatherlim := factor(gatherlim, levels = 0:4, labels = c("no restr", "1000+", "<1000", "<100", "<10"))]
