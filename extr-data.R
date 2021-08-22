@@ -15,7 +15,7 @@ eligible <- c(eligible, "czechia", "ireland")
 cases <- fread("https://github.com/owid/covid-19-data/raw/master/public/data/jhu/new_cases.csv")
 setnames(cases, tolower)
 avail_countries <- names(cases)[names(cases) %in% eligible]
-cases <- cases[date < obs_end,
+cases <- cases[date <= obs_end,
                c("date", avail_countries), with = FALSE]
 cases <- melt(cases, "date", variable.name = "country", value.name = "newcases")
 
@@ -29,7 +29,7 @@ cases <- cases[newcases < 1, newcases := NA]
 rm(uk)
 
 fwrite(cases, "input/cases.csv")
-cases <- cases[between(date, obs_start, obs_end)]
+cases <- cases[data.table::between(date, as.Date("2021-04-11"), obs_end)]
 
 # TESTING
 tests <- fread("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/testing/covid-testing-all-observations.csv")
