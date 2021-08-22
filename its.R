@@ -2,14 +2,16 @@ library(data.table)
 library(patchwork)
 library(ggplot2)
 
-finals <- fread("input/analysis.csv")
+stages <- fread("input/analysis.csv")
 lag <- 3
 wsize <- 7
 
 # Identify stage of the tournament
-finals[, nmatches := cumsum(match), by = country]
-finals[, maxmatches := max(nmatches), by = country]
-finals <- finals[maxmatches > 4]
+stages[, nmatches := cumsum(match), by = country]
+stages[, maxmatches := max(nmatches), by = country]
+noqual <- stages[country %in% c("greece", "ireland",
+                                "northern ireland", "norway")]
+finals <- stages[maxmatches > 4]
 
 #
 stages <- c("Round of 16", "Quarterfinals", "Semifinals", "Finals")
@@ -70,3 +72,22 @@ its <-
                           ###44###")
 its
 ggsave(plot = its, "figures/figure2.pdf", width = 11, height = 8.5, units = "in")
+
+# Control countries
+matchindex <- finals[country == "england", .(date, nmatches)]
+noqual[, nmatches := NULL]
+noqual <- noqual[matchindex, on = "date"]
+noqual[, maxmatches := 7]
+finals <- noqual
+its_plots <- lapply(4:7, stage_its)
+
+its <-
+    its_plots[[1]] +   its_plots[[2]] +   its_plots[[3]] + its_plots[[4]] +
+    plot_layout(design = "1111
+                          2222
+                          3333
+                          4444") +
+    plot_annotation(title = "Control countries",
+                    subtitle = "Matchday was picked from the English team")
+its
+ggsave(plot = its, "figures/figure2-control.pdf", width = 11, height = 8.5, units = "in")
