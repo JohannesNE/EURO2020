@@ -1,3 +1,4 @@
+library(tidyverse)
 library(epidemia)
 
 cases <- read_csv("input/analysis.csv") %>%
