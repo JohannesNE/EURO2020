@@ -1,6 +1,8 @@
 library(tidyverse)
 library(epidemia)
 
+options(mc.cores = parallel::detectCores())
+
 cases <- read_csv("input/analysis.csv") %>%
     mutate(week = lubridate::week(date),
            wday = factor(wday(date, label = TRUE, week_start = 1), ordered = FALSE),
